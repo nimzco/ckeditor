@@ -101,7 +101,6 @@ module Ckeditor
           if !name.include?('/lang/') || languages.include?(base)
             items << file.relative_path_from(relative_folder).to_s
           end
-
           items
         end
       end
